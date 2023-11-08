@@ -174,11 +174,18 @@ header a:hover::after {
     background-position: center;
     background-size: cover;
 }
-.launch_2 .section-header_button {
+.launch_2 .section-header_button,
+.launch_3 .section-header_button {
     padding: 1.1rem 3.5rem;
 }
 
 .launch_3 {
+    background-image: url(../resources/images/Star6_26_110323_DSC_8515_mobile_562c823076.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.launch_4 {
     background-image: url(../resources/images/Psyche_outside39abmound_IMG_8486_desktop_f5072ad69b.jpg);
     background-position: center;
     background-size: cover;
