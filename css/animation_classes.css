@@ -4,7 +4,17 @@
     transition-delay: 0.5s;
     opacity: 0;
 }
+
 .animate_fade-in-element {
     transform: translateY(0px);
+    opacity: 1;
+}
+
+.hide {
+    opacity: 0;
+}
+
+.show-bg-black {
+    background-color: black;
     opacity: 1;
 }
