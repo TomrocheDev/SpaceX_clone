@@ -1,0 +1,10 @@
+.fade-in-element {
+    transform: translateY(50px);
+    transition: 1.2s;
+    transition-delay: 0.5s;
+    opacity: 0;
+}
+.animate_fade-in-element {
+    transform: translateY(0px);
+    opacity: 1;
+}

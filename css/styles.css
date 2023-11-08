@@ -47,7 +47,7 @@ a {
 }
 
 /* First launch section */
-.upcoming-launch {
+.launch {
     background-image: url(../resources/images/Flight_2_Homepage_Desktop_a3d65abd76.jpg);
     background-position: center;
     background-size: cover;
@@ -99,7 +99,7 @@ header a {
     padding-top: 0.5rem;
 }
 
-.upcoming-launch_header {
+.launch_header {
     padding: 56vh 7.2vw 0;
 }
 
@@ -111,7 +111,7 @@ header a {
     font-weight: 900;
     position: relative;
     overflow: hidden;
-    z-index: 600;
+    z-index: 9000;
 }
 
 .section-header_button::before {
@@ -144,4 +144,20 @@ header a {
     width: 100%;
     transform: scale3d(1, 1, 1);
     transform-origin: bottom center;
+}
+
+/* ### Second launch section ### */
+.launch_2 {
+    background-image: url(../resources/images/Homepage_Starlink_SLC_40_Desktop_5b1e6b5dd0.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.launch_2 .section-header_button {
+    padding: 1.1rem 3.5rem;
+}
+
+.launch_3 {
+    background-image: url(../resources/images/Psyche_outside39abmound_IMG_8486_desktop_f5072ad69b.jpg);
+    background-position: center;
+    background-size: cover;
 }

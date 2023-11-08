@@ -5,7 +5,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="icon" type="image/x-icon" href="resources/icons/SpaceX_flavicon.jpg" />
         <link rel="stylesheet" href="css/styles.css" />
+        <link rel="stylesheet" href="css/animation_classes.css" />
         <script src="https://kit.fontawesome.com/00e8ed60ea.js" crossorigin="anonymous"></script>
+        <script defer src="js/animations.js"></script>
 
         <title>SpaceX Clone | By Tom Roche</title>
     </head>
@@ -31,13 +33,39 @@
                 <img src="resources/icons/hamburger.svg" alt="Hamburger menu" />
             </div>
         </header>
-        <section class="upcoming-launch">
-            <div class="upcoming-launch_header">
-                <div class="upcoming-launch_header--subtitle">
+        <section class="launch">
+            <div class="launch_header fade-in-element">
+                <div class="launch_header--subtitle">
                     <h3>Upcoming launch</h3>
                 </div>
-                <div class="upcoming-launch_header--title">
+                <div class="launch_header--title">
                     <h2>Starship's second <br />flight test</h2>
+                </div>
+                <a class="section-header_button" href="#">
+                    <span>Learn more</span>
+                </a>
+            </div>
+        </section>
+        <section class="launch_2">
+            <div class="launch_header fade-in-element">
+                <div class="launch_header--subtitle">
+                    <h3>Recent Launch</h3>
+                </div>
+                <div class="launch_header--title">
+                    <h2>Starlink mission</h2>
+                </div>
+                <a class="section-header_button" href="#">
+                    <span>Watch</span>
+                </a>
+            </div>
+        </section>
+        <section class="launch_3">
+            <div class="launch_header fade-in-element">
+                <div class="launch_header--subtitle">
+                    <h3>Recent Launch</h3>
+                </div>
+                <div class="launch_header--title">
+                    <h2>Psyche mission</h2>
                 </div>
                 <a class="section-header_button" href="#">
                     <span>Learn more</span>
